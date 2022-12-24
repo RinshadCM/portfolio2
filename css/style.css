@@ -9695,6 +9695,18 @@ textarea.form-control {
 
 
 
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: auto;
+      touch-action: auto;
+
+      -ms-touch-action: pan-y !important;
+      touch-action: pan-y !important;
+  
+  }
+
+
+
+
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
