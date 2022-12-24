@@ -8430,7 +8430,7 @@ h1, h2, h3, h4, h5,
   .owl-carousel.home-slider {
     position: relative;
     height: 750px;
-    /* z-index: 0; */
+    z-index: 0;
    }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
@@ -8438,7 +8438,7 @@ h1, h2, h3, h4, h5,
       background-position: center center;
       height: 750px;
       position: relative;
-      /* z-index: 0;  */
+      z-index: 0; 
     }
       @media (max-width: 1199.98px) {
         .owl-carousel.home-slider .slider-item {
@@ -8453,7 +8453,7 @@ h1, h2, h3, h4, h5,
         opacity: 0; }
       .owl-carousel.home-slider .slider-item .slider-text {
         height: 750px;
-        /* z-index: 0;  */
+        z-index: 0; 
       }
         @media (max-width: 991.98px) {
           .owl-carousel.home-slider .slider-item .slider-text {
@@ -8461,7 +8461,7 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .slider-item .slider-text .one-third {
           width: 49%;
           position: relative;
-          /* z-index: -1;  */
+          z-index: -1; 
         }
           .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
             position: absolute;
